@@ -69,7 +69,7 @@ def main():
         hour = check_hour()
         
         print(hour)
-        if(hour == 12 or hour == 23):
+        if(hour == 14 or hour == 23):
             print("Ejecutando")
             try:
                 service = discovery.build('sheets', 'v4', credentials=creds)
